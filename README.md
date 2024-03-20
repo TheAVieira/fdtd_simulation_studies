@@ -3,7 +3,9 @@
 Finite Difference Time Domain (FDTD) is a simulation method where Maxwell's equations are made discrete in both time and space. FDTD can be used to simulate the propragation of electromagnetic radiation.
 
 This repo showcases a study of FDTD method that I developed in Qt 5 for Photonics course of my Master's degree in Physics Engineering, at the Faculty of Sciences of 
-Univeristy of Lisbon.
+Univeristy of Lisbon back in 2016.
+
+The work is based off of the lectures of [EMPossible](https://www.youtube.com/watch?v=KHTByojnsZE&list=PLLYQF5WvJdJWoU9uEeWJ6-MRzDSziNnGt&ab_channel=EMPossible) on YouTube and is all implemented as a single thread (including GUI).
 
 ## Requirements
 
@@ -19,16 +21,23 @@ QWidget: Must construct a QApplication before a QWidget
 20:42:20: The program has unexpectedly finished.
 ```
 
-
-
 ## Contents
 
 ### OneD
 This project illustrated the one dimension case.
-An absorbing boundary condition is easy to implement in this case.
+An absorbing boundary condition is easy to implement in this case, featured on the left-side of the simulation.
 
-![image](Res/OneD.png)
+<img src="Res/OneD.png" alt="drawing" width="600"/>
+
+The figure illustrates the result of two single-point-source emmiters, one at the x=0 and another at x=1000 (middle of simulation).
 
 ### 2D - Perfect emitter
+This example showscases a 2D simulation.
+
+<img src="Res/TwoD-PerfectEmitter.png" alt="drawing" width="600"/>
+
+ A Perfectly Matched Layer (PML) is implemented as a border of 10 points around the simulation space (not plotted). This border absorbs the incomming waves, as if they continued into infinity, and creates the conditions for a clean simulation space.
 
 
+
+ 
