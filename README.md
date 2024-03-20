@@ -27,7 +27,8 @@ QWidget: Must construct a QApplication before a QWidget
 This project illustrated the one dimension case.
 An absorbing boundary condition is easy to implement in this case.
 
-### 2D - No boundary TODO
+![image](Res/OneD.png)
 
-### 2D - PML TODO
+### 2D - Perfect emitter
+
 
