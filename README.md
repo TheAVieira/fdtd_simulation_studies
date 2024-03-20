@@ -1,9 +1,9 @@
 ## Introduction 
 
-Finite Difference Time Domain (FDTD) is a simulation method where Maxwell's equations are made discrete in both time and space. FDTD can be used to simulate the propragation of electromagnetic radiation.
+Finite Difference Time Domain (FDTD) is a numerical analysis technique where Maxwell's equations are discretized in both time and space as a computational grid. By solving Maxwell’s equations in a step-wise manner, FDTD allows for the simulation of the electromagnetic wave propagation through various media.
 
 This repo showcases a study of FDTD method that I developed in Qt 5 for Photonics course of my Master's degree in Physics Engineering, at the Faculty of Sciences of 
-Univeristy of Lisbon back in 2016.
+Univeristy of Lisbon, back in 2016.
 
 The work is based off of the lectures of [EMPossible](https://www.youtube.com/watch?v=KHTByojnsZE&list=PLLYQF5WvJdJWoU9uEeWJ6-MRzDSziNnGt&ab_channel=EMPossible) on YouTube and is all implemented as a single thread (including GUI).
 
